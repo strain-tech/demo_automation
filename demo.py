@@ -16,7 +16,7 @@ def main():
   print("Hello World")
   args = init_args()
   print("args", args)
-  
+  print(os.environ)
   if 'JENKINS_URL' in os.environ:
     print('Inside Jenkins')
 
