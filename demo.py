@@ -13,8 +13,8 @@ def get_args():
   return args
 
 def main():
-  print("Hello World")
   args = init_args()
+  print("Hello World")
   print("args", args)
   if 'JENKINS_HOME' in os.environ:
     print('Inside Jenkins')
